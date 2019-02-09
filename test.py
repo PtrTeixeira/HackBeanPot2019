@@ -2,7 +2,6 @@
 import io
 import os
 
-from protobuf_to_dict import protobuf_to_dict
 from google.cloud import vision
 from google.cloud.vision import types
 

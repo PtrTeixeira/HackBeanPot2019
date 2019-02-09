@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <h1>Test Speech</h1>
+    <p>
+    Hello world!
+    </p>
+
+    <form>
+      <input type="text" label="Instagram Users" id="users-field" />
+      <button id="speak-now">
+        Speak!
+      </button>
+    </form>
+
+    <p id="output-text">
+    </p>
+
+  <script type="text/javascript">
+    document.getElementById('speak-now').onclick = () => {
+      const usernames = document
+        .getElementById('users-field')
+        .value
+        .split(',')
+        .map(name => name.trim())
+
+      const postBody = {
+        imageCount: 5,
+        usernames
+      }
+
+      fetch("http://localhost:5000/load", {
+        method: 'POST',
+        body: JSON.stringify(postBody),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+        .then(response =>  response.json() )
+        .then(data => { 
+          document.getElementById('output-text').textContent = data.generated_caption
+          const msg = new SpeechSynthesisUtterance('Hello world!');
+          window.speechSynthesis.speak(msg)
+        })
+
+      // Prevent page reload
+      return false
+    };
+  </script>
+  </body>
+</html>

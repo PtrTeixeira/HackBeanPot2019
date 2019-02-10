@@ -37,12 +37,13 @@ const buildElementHtml = ({ caption, image, video }) => {
   captionElement.setAttribute('aria-hidden', true)
   captionElement.classList.add("card-text")
 
-  const msg = new SpeechSynthesisUtterance(caption);
-
   const readButton = document.createElement("button")
   readButton.textContent = "Read Content"
+
   readButton.onclick = () => {
+    const msg = new SpeechSynthesisUtterance(caption);
     window.speechSynthesis.speak(msg)
+    return false
   }
 
   const captionWrapperElement = document.createElement("div")

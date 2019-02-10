@@ -14,3 +14,11 @@ python test.py
 will print out the label stuff from the Google Cloud Vision 
 api.
 
+
+Starting the web server
+----------------------
+
+```
+pip install -r requirements.txt
+FLASK_APP=server.py flask run
+```

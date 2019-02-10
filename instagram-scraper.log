@@ -1,0 +1,102 @@
+2019-02-09 22:49:20,152 - instagram_scraper.app - ERROR - Login failed for user
+2019-02-09 22:49:20,153 - instagram_scraper.app - ERROR - {"authenticated": false, "user": true, "status": "ok"}
+2019-02-09 22:49:22,822 - instagram_scraper.app - WARNING - No Content-Length in response, the file 29717671_198703144194130_2437254104934776832_n.jpg may be partially downloaded
+2019-02-09 22:49:24,375 - instagram_scraper.app - WARNING - Failed to get media details for Btrssd2ACSl
+2019-02-09 22:49:24,865 - instagram_scraper.app - WARNING - Failed to get media details for BtrsqkhAacG
+2019-02-09 22:49:25,249 - instagram_scraper.app - WARNING - Failed to get media details for Btrssd2gSJA
+2019-02-09 22:49:25,609 - instagram_scraper.app - WARNING - Failed to get media details for Btrssd1gAdF
+2019-02-09 22:49:25,967 - instagram_scraper.app - WARNING - Failed to get media details for Btrssd2AwZn
+2019-02-09 22:49:26,336 - instagram_scraper.app - WARNING - Failed to get media details for BtrsrpNAMg4
+2019-02-09 22:49:27,118 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoEgEIa
+2019-02-09 22:49:27,635 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoAgmas
+2019-02-09 22:49:28,143 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoBAh5a
+2019-02-09 22:49:28,655 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoFgONM
+2019-02-09 22:49:29,169 - instagram_scraper.app - WARNING - Failed to get media details for Borvhn_A00a
+2019-02-09 22:49:29,780 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoBgQVz
+2019-02-09 22:49:30,295 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoBgNAu
+2019-02-09 22:49:30,732 - instagram_scraper.app - WARNING - Failed to get media details for BorvhoAAuLO
+2019-02-09 22:49:31,572 - instagram_scraper.app - WARNING - Failed to get media details for Bm57U7WgGrN
+2019-02-09 22:49:32,548 - instagram_scraper.app - WARNING - Failed to get media details for Bm57VC8g-RL
+2019-02-09 22:49:33,059 - instagram_scraper.app - WARNING - Failed to get media details for Bm57VLTAqJ7
+2019-02-09 22:49:33,437 - instagram_scraper.app - WARNING - Failed to get media details for Bm57VS-A-oW
+2019-02-09 22:49:33,840 - instagram_scraper.app - WARNING - Failed to get media details for Bm57Vc5A8P5
+2019-02-09 22:49:34,212 - instagram_scraper.app - WARNING - Failed to get media details for Bm57VoYgJCd
+2019-02-09 22:49:34,926 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf9g8Hp0t
+2019-02-09 22:49:35,413 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf9tZHRZG
+2019-02-09 22:49:36,027 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf92yHEcW
+2019-02-09 22:49:36,542 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf9-tnavs
+2019-02-09 22:49:37,017 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-GAHjn2
+2019-02-09 22:49:37,563 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-NOH_rZ
+2019-02-09 22:49:38,076 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-Xrn6ds
+2019-02-09 22:49:38,514 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-enHnQm
+2019-02-09 22:49:38,994 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-lunP4a
+2019-02-09 22:49:39,447 - instagram_scraper.app - WARNING - Failed to get media details for Bmyf-wTngLt
+2019-02-09 22:49:40,274 - instagram_scraper.app - WARNING - Failed to get media details for BmYriPsgiWi
+2019-02-09 22:49:40,840 - instagram_scraper.app - WARNING - Failed to get media details for BmYrilPgNyZ
+2019-02-09 22:49:41,351 - instagram_scraper.app - WARNING - Failed to get media details for BmYri7-AFId
+2019-02-09 22:49:41,863 - instagram_scraper.app - WARNING - Failed to get media details for BmYrjgKAqsR
+2019-02-09 22:49:42,377 - instagram_scraper.app - WARNING - Failed to get media details for BmYrkUDgL5Z
+2019-02-09 22:49:42,888 - instagram_scraper.app - WARNING - Failed to get media details for BmYrkkpAIrL
+2019-02-09 22:49:43,321 - instagram_scraper.app - WARNING - Failed to get media details for BmYrk7JAHHo
+2019-02-09 22:49:43,809 - instagram_scraper.app - WARNING - Failed to get media details for BmYrlK_gwar
+2019-02-09 22:49:44,326 - instagram_scraper.app - WARNING - Failed to get media details for BmYrlc2ACpy
+2019-02-09 22:49:44,833 - instagram_scraper.app - WARNING - Failed to get media details for BmYrlrNAUMt
+2019-02-09 22:49:45,409 - instagram_scraper.app - WARNING - Failed to get media details for Bl1WmpSgEOU
+2019-02-09 22:49:45,859 - instagram_scraper.app - WARNING - Failed to get media details for Bl1WmzhAM3c
+2019-02-09 22:49:46,300 - instagram_scraper.app - WARNING - Failed to get media details for Bl1Wm8YgYVy
+2019-02-09 22:49:46,739 - instagram_scraper.app - WARNING - Failed to get media details for Bl1WnHPg3Ay
+2019-02-09 22:49:47,145 - instagram_scraper.app - WARNING - Failed to get media details for Bl1WnRdAG15
+2019-02-09 22:49:47,604 - instagram_scraper.app - WARNING - Failed to get media details for Bl1WnXCgOMr
+2019-02-09 22:49:48,342 - instagram_scraper.app - WARNING - Failed to get media details for Bk_JKtpApLA
+2019-02-09 22:49:48,705 - instagram_scraper.app - WARNING - Failed to get media details for Bk_JK1dg0-O
+2019-02-09 22:49:49,062 - instagram_scraper.app - WARNING - Failed to get media details for Bk_JK-2gF_g
+2019-02-09 22:49:49,417 - instagram_scraper.app - WARNING - Failed to get media details for Bk_JLHXAnhl
+2019-02-09 22:49:50,261 - instagram_scraper.app - WARNING - Failed to get media details for BkbiaA8gl4x
+2019-02-09 22:49:50,693 - instagram_scraper.app - WARNING - Failed to get media details for BkbiaIig5xg
+2019-02-09 22:49:51,203 - instagram_scraper.app - WARNING - Failed to get media details for BkbiaS9AYdP
+2019-02-09 22:49:51,656 - instagram_scraper.app - WARNING - Failed to get media details for BkbiaZcgXff
+2019-02-09 22:49:52,108 - instagram_scraper.app - WARNING - Failed to get media details for BkbiahKAINo
+2019-02-09 22:49:52,516 - instagram_scraper.app - WARNING - Failed to get media details for Bkbiap2AIEZ
+2019-02-09 22:49:53,875 - instagram_scraper.app - WARNING - No Content-Length in response, the file 50839988_2181277805249337_1808389836194845286_n.jpg may be partially downloaded
+2019-02-09 22:49:54,583 - instagram_scraper.app - WARNING - No Content-Length in response, the file 51311968_115423559572846_1681308256114773596_n.jpg may be partially downloaded
+2019-02-09 22:49:54,861 - instagram_scraper.app - WARNING - No Content-Length in response, the file 50775491_922958797914943_2271710121351475955_n.jpg may be partially downloaded
+2019-02-09 22:49:55,142 - instagram_scraper.app - WARNING - No Content-Length in response, the file 50783956_344074709539473_640889804595036803_n.jpg may be partially downloaded
+2019-02-09 22:49:56,360 - instagram_scraper.app - WARNING - Failed to get high resolution profile picture for mileycyrus
+2019-02-09 22:49:57,942 - instagram_scraper.app - WARNING - Failed to get media details for Btq7B8ehZat
+2019-02-09 22:49:58,453 - instagram_scraper.app - WARNING - Failed to get media details for Btq7B8fh64n
+2019-02-09 22:49:58,964 - instagram_scraper.app - WARNING - Failed to get media details for Btq7B8gBK1H
+2019-02-09 22:49:59,382 - instagram_scraper.app - WARNING - Retry after exception PartialContentException('Partial response',) on https://www.instagram.com/p/Btq7B8fBk2G/?__a=1
+2019-02-09 22:50:05,137 - instagram_scraper.app - WARNING - Failed to get media details for Btq7B8fBk2G
+2019-02-09 22:50:05,837 - instagram_scraper.app - WARNING - Failed to get media details for BtqwgsNh_0n
+2019-02-09 22:50:06,277 - instagram_scraper.app - WARNING - Failed to get media details for BtqwgsOBJ9O
+2019-02-09 22:50:07,170 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3chwn2
+2019-02-09 22:50:07,683 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3dhszL
+2019-02-09 22:50:08,182 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3chpqU
+2019-02-09 22:50:08,700 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3dhxtY
+2019-02-09 22:50:09,204 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3bh1Rp
+2019-02-09 22:50:09,725 - instagram_scraper.app - WARNING - Failed to get media details for Btqvm3dB47h
+2019-02-09 22:50:10,665 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8tBYyb
+2019-02-09 22:50:11,151 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8thbjK
+2019-02-09 22:50:11,662 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8shskj
+2019-02-09 22:50:12,198 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8uBIh2
+2019-02-09 22:50:12,794 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8thvuK
+2019-02-09 22:50:13,268 - instagram_scraper.app - WARNING - Failed to get media details for BtqvM8uBnEn
+2019-02-09 22:50:13,615 - instagram_scraper.app - WARNING - Retry after exception PartialContentException('Partial response',) on https://www.instagram.com/p/Btqt9tihqR2/?__a=1
+2019-02-09 22:50:19,472 - instagram_scraper.app - WARNING - Failed to get media details for Btqt9qJhcOH
+2019-02-09 22:50:19,864 - instagram_scraper.app - WARNING - Failed to get media details for Btqt5JyBn3g
+2019-02-09 22:50:22,741 - instagram_scraper.app - WARNING - Failed to get media details for BtjJvQGBDZ0
+2019-02-09 22:50:23,224 - instagram_scraper.app - WARNING - Failed to get media details for BtjJvQHBd05
+2019-02-09 22:50:23,962 - instagram_scraper.app - WARNING - Failed to get media details for BthW9wMBkfb
+2019-02-09 22:50:24,364 - instagram_scraper.app - WARNING - Failed to get media details for BthW9wKBFyE
+2019-02-09 22:50:25,067 - instagram_scraper.app - WARNING - Failed to get media details for BthCkq6BH5r
+2019-02-09 22:50:25,487 - instagram_scraper.app - WARNING - Failed to get media details for BthCkq7BvqH
+2019-02-09 22:50:29,482 - instagram_scraper.app - WARNING - Failed to get media details for Bs80U4HhUXK
+2019-02-09 22:50:29,890 - instagram_scraper.app - WARNING - Failed to get media details for Bs80U4GhyPS
+2019-02-09 22:50:30,302 - instagram_scraper.app - WARNING - Failed to get media details for Bs80U4IBRnh
+2019-02-09 22:50:32,661 - instagram_scraper.app - WARNING - Failed to get media details for BsyP6cjB1iH
+2019-02-09 22:50:33,165 - instagram_scraper.app - WARNING - Failed to get media details for BsyP6ckhoJQ
+2019-02-09 22:50:33,681 - instagram_scraper.app - WARNING - Failed to get media details for BsyP6ckBNxq
+2019-02-09 22:50:35,008 - instagram_scraper.app - WARNING - Failed to get media details for Bsvz-OYB3Vy
+2019-02-09 22:50:35,522 - instagram_scraper.app - WARNING - Failed to get media details for Bsvz-OXBsV-
+2019-02-09 22:50:36,033 - instagram_scraper.app - WARNING - Failed to get media details for Bsvz-OXhjHP
+2019-02-09 22:50:37,277 - instagram_scraper.app - WARNING - No Content-Length in response, the file 50264410_150163109215297_5454445141992483058_n.jpg may be partially downloaded

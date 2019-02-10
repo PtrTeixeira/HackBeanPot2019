@@ -1,6 +1,6 @@
 
 import json
-import urlparse
+from urllib.parse import urlparse
 import os
 from computervision import get_image_data
 from sentence_formatter import format_sentence_dict
@@ -27,7 +27,7 @@ def get_meta_data(post_data, post_num):
     # storing if url is video or not
     media_entry.update({"is_video": []})
     for url in media_entry["image_url"]:
-        path = urlparse.urlparse(url).path
+        path = urlparse(url).path
         ext = os.path.splitext(path)[1]
         if ext == ".jpg":
             media_entry["is_video"].append(False)
@@ -69,12 +69,21 @@ def get_meta_data(post_data, post_num):
 
     return media_entry
 
+def get_all_media(json_dir):
+    all_media = []
 
-def print_all(file_name):
+    for filename in os.listdir(json_dir):
+        if filename.endswith(".json"): 
+            media_list = get_media_list(os.path.join(json_dir, filename))
+            all_media.extend(media_list)
+
+    return all_media
+  
+
+def get_media_list(file_name):
     """Takes in a json file and returns a list of dictionaries containing a
     customized description of an Instagram post as the key and a list of urls
     as the value"""
-
     media_list = []
 
     with open(file_name, "r") as output_file:
@@ -85,10 +94,8 @@ def print_all(file_name):
 
         generated_text = format_sentence_dict(raw_entry)
         media_list.append({"text": str(generated_text), "urls": raw_entry["image_url"], "is_video": raw_entry["is_video"]})
-    print(media_list)
+    
+
+    return media_list
 
 
-if __name__ == "__main__":
-
-
-    print_all("aaronpradhan1.json")

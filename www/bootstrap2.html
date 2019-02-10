@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>InstaReader</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato|Roboto">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+</head>
+<body>
+    <div class="container-fluid">
+      <h1>InstaReader</h1>
+      <span>
+        Enter username:
+      </span>
+
+      <form>
+        <input type="text" label="Instagram Users" id="users-field" />
+        <button id="load-images">
+          Load images
+        </button>
+      </form>
+      <br />
+      <div class="row">
+        <div class="col-sm-6">
+            <span id="username">@aaronpradhan1</span>
+        </div>
+        <div class="col-sm-6">
+            <div id="output-text">
+              <!-- [Username] posted a photo of [desc] [timestamp statement]. The location is [location]. -->
+              <span id="summary-sentence">@rygorg posted a photo of a man standing on top of a snow covered slope on December 20, 2018.</span>
+              <h3>Caption:</h3>
+              <p id>
+              I fell in the river. Buy their clothing.<br />
+              @skinny_snackz<br />
+              @skinny_snackz<br />
+              @skinny_snackz<br />
+              <br />
+              My phone does a lot of processing with the shots, maybe too much contrast.<br />
+              </p>
+            </div>
+        </div>
+      </div>  
+    </div>
+</body>
+</html>

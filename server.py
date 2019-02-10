@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify, send_from_directory
 import json
 
+from start import get_media_list
+
 app = Flask(__name__, static_url_path = "")
 
 @app.route("/api/load", methods=['POST'])
@@ -9,23 +11,17 @@ def get_text():
     usernames = request.get_json()['usernames']
     image_count = request.get_json()['imageCount']
 
-    return jsonify([
-        {
-            "caption": "this is the caption\nBonusCaption",
-            "image": "http://flask.pocoo.org/docs/1.0/_static/flask.png",
-            "video": False
-        },
-        {
-            "caption": "this is the caption\nBonusCaption",
-            "image": "http://flask.pocoo.org/docs/1.0/_static/flask.png",
-            "video": False
-        },
-        {
-            "caption": "this is the caption\nBonusCaption",
-            "image": "http://flask.pocoo.org/docs/1.0/_static/flask.png",
-            "video": False
-        }
-    ])
+
+    result = []
+    for item in get_media_list():
+        for index, url in enumerate(item["urls"]):
+            result.append({
+                "caption": item["text"],
+                "image": url,
+                "video": item["is_video"][index]
+            })
+
+    return jsonify(result)
 
 @app.route("/")
 def server_index():

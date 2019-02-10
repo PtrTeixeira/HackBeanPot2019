@@ -73,11 +73,18 @@ const clickHandler = () => {
     usernames
   }
 
+  document.getElementById('loading-gif')
+    .classList
+    .remove('d-none')
   post("http://localhost:5000/api/load", postBody)
     .then(response => response.json())
     .then(data => {
       const targetElement = document.getElementById('output-text')
       removeChildren(targetElement)
+
+      document.getElementById('loading-gif')
+        .classList
+        .add('d-none')
 
       data.forEach(imageData => {
         const childElement = buildElementHtml(imageData)

@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory
 import json
-from media_entry import get_all
+from start import get_media_list
 
 app = Flask(__name__, static_url_path = "")
 
@@ -12,7 +12,7 @@ def get_text():
 
 
     result = []
-    for item in get_all("aaronpradhan.json"):
+    for item in get_media_list():
         for index, url in enumerate(item["urls"]):
             result.append({
                 "caption": item["text"],

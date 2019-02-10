@@ -9,13 +9,15 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato|Roboto">
+  <link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-        <h1>Instagram Caption Generator</h1>
+      <div class="col-12 title">
+        <h1>InstaReader</h1>
       </div>
     </div>
 
@@ -24,11 +26,11 @@
         <div id="instagram-input-element">
           <form>
             <label for="users-field">
-              Instagram Username:
+              Enter username:<br />
               <input type="text" label="Instagram Username" id="users-field" />
             </label>
             <button id="load-data">
-              Load
+              Load images
             </button>
           </form>
         </div>
@@ -36,17 +38,19 @@
     </div>
 
     <div class="row">
-      <div class="col-4"></div>
-      <div class="col-4">
+      <div class="col-12">
         <div id="instagram-output-element">
           <p id="output-text"></p>
         </div>
       </div>
-      <div class="col-4"></div>
+      
     </div>
   </div>
 
   <script src="/static/load_data.js" async> </script>
+  <script>
+
+  </script>
 </body>
 
 </html>

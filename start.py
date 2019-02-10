@@ -6,8 +6,15 @@ import json
 import media_entry
 
 
-# list of instagram usernames to scrape from
-usernames = ["luke.janik", "aaronpradhan1", "mileycyrus"]
+
+
+
+# # list of instagram usernames to scrape from
+# usernames = ["arianagrande","rihanavy","beyonce","city_of_newyork","travelers.inspiration","vancouverfoodie","dominqueansel",
+# "magnoliabakery","sushiloveforever","pardonyourfrench","earthpix","loic.lagarde","beautifuldestinations","doyoutravel","_itsbeautifulhere",
+# "taramilktea","hackbeanpot"]
+
+usernames = ["rihanavy","magnoliabakery","sushiloveforever","earthpix"]
 
 # putting together the process to call the instagram scraper with
 process = ["instagram-scraper"]
@@ -28,4 +35,4 @@ for root, dirs, files in os.walk(".", topdown=False):
 media_list = media_entry.get_all_media(json_dir)
 
 # combined media into a single list
-return media_list
+print(media_list)

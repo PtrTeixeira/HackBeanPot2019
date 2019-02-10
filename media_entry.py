@@ -2,8 +2,16 @@
 import json
 from urllib.parse import urlparse
 import os
-from computervision import get_image_data
 from sentence_formatter import format_sentence_dict
+
+try:
+    # Python2
+    import urlparse
+    from computervision import get_image_data
+except ImportError:
+    import urllib.parse as urlparse
+    # from urllib.parse as urlparse
+    from ComputerVisionAPI.computervision import get_image_data
 
 def get_meta_data(post_data, post_num):
     """Takes in a Python obj? of and returns a dicitonary (media_entry) of the username,
@@ -73,12 +81,12 @@ def get_all_media(json_dir):
     all_media = []
 
     for filename in os.listdir(json_dir):
-        if filename.endswith(".json"): 
+        if filename.endswith(".json"):
             media_list = get_media_list(os.path.join(json_dir, filename))
             all_media.extend(media_list)
 
     return all_media
-  
+
 
 def get_media_list(file_name):
     """Takes in a json file and returns a list of dictionaries containing a
@@ -94,8 +102,20 @@ def get_media_list(file_name):
 
         generated_text = format_sentence_dict(raw_entry)
         media_list.append({"text": str(generated_text), "urls": raw_entry["image_url"], "is_video": raw_entry["is_video"]})
-    
+    print(media_list)
 
+def get_all(file_name):
+    media_list = []
+
+    with open(file_name, "r") as output_file:
+        post_data = json.load(output_file)
+    # loops through each post in a single user's feed, generates a media-entry dictionary that
+    for i in range(len(post_data)):
+        raw_entry = get_meta_data(post_data, i)
+
+        generated_text = format_sentence_dict(raw_entry)
+        media_list.append({"text": str(generated_text), "urls": raw_entry["image_url"], "is_video": raw_entry["is_video"]})
     return media_list
 
 
+    return media_list

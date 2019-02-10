@@ -78,5 +78,6 @@ image_data = get_image_data(urlImage)
 # this is the JSON for image descriptions
 image_data2 = get_image_data(urlImage, 'describe', {'maxCandidates': 10, 'language': 'en'})
 
-for k, v in image_data.items():
-    print(str(k) + ": " + str(v))
+if __name__ == "__main__":
+    for k, v in image_data.items():
+        print(str(k) + ": " + str(v))

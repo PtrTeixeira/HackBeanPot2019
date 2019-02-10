@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Instagram Caption Generator</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1>Instagram Caption Generator</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div id="instagram-input-element">
+          <form>
+            <label for="users-field">
+              Instagram Username:
+              <input type="text" label="Instagram Username" id="users-field" />
+            </label>
+            <button id="load-data">
+              Load
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div id="instagram-output-element">
+          <p id="output-text"></p>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+
+  <script src="/static/load_data.js" async> </script>
+</body>
+
+</html>

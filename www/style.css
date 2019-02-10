@@ -18,11 +18,22 @@ div.card {
     max-width: 600px;
 }
 
-.title {
+.logo-container {
     background-color: #e9ecef;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#logo-img {
+    width: 400px;
+}
+
+#instagram-input-element {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 

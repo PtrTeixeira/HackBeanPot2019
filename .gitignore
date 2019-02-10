@@ -1,3 +1,9 @@
 # Virtualenv (highly recommended)
 venv/
 
+# Generated file directory
+# We don't want to keep these
+jsons/
+
+# We could keep this, but I dont wanna
+instagram-scraper.log

@@ -13,7 +13,7 @@ def get_text():
 
 
     result = []
-    for item in get_media_list():
+    for item in get_media_list(usernames):
         for index, url in enumerate(item["urls"]):
             result.append({
                 "caption": item["text"],

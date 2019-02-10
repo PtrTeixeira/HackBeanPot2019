@@ -5,9 +5,8 @@ import os
 import json
 import media_entry
 
-def get_media_list():
+def get_media_list(usernames):
 	# list of instagram usernames to scrape from
-	usernames = ["luke.janik", "aaronpradhan1", "mileycyrus"]
 
 	# putting together the process to call the instagram scraper with
 	process = ["instagram-scraper"]

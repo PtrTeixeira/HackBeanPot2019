@@ -100,12 +100,12 @@ class InstagramScraper(object):
                 self.__dict__[key] = default_attr.get(key)
 
         # story media type means story-image & story-video
-        if 'story' in self.media_types:
-            self.media_types.remove('story')
-            if 'story-image' not in self.media_types:
-                self.media_types.append('story-image')
-            if 'story-video' not in self.media_types:
-                self.media_types.append('story-video')
+        # if 'story' in self.media_types:
+        #     self.media_types.remove('story')
+        #     if 'story-image' not in self.media_types:
+        #         self.media_types.append('story-image')
+        #     if 'story-video' not in self.media_types:
+        #         self.media_types.append('story-video')
 
         # Read latest_stamps file with ConfigParser
         self.latest_stamps_parser = None
@@ -192,7 +192,7 @@ class InstagramScraper(object):
                     url = args[0]
                 if retry < MAX_RETRIES:
                     self.logger.warning('Retry after exception {0} on {1}'.format(repr(e), url))
-                    self.sleep(retry_delay)
+                    #self.sleep(retry_delay)
                     retry_delay = min( 2 * retry_delay, MAX_RETRY_DELAY )
                     retry = retry + 1
                     continue
@@ -940,7 +940,7 @@ class InstagramScraper(object):
                                     continue
                                 if retry < MAX_RETRIES:
                                     self.logger.warning('Retry after exception {0} on {1}'.format(repr(e), url))
-                                    self.sleep(retry_delay)
+                                    #self.sleep(retry_delay)
                                     retry_delay = min( 2 * retry_delay, MAX_RETRY_DELAY )
                                     retry = retry + 1
                                     continue
@@ -1230,7 +1230,7 @@ def main():
 
     scraper = InstagramScraper(**vars(args))
 
-    scraper.login()
+    #scraper.login()
 
     if args.tag:
         scraper.scrape_hashtag()
@@ -1241,7 +1241,7 @@ def main():
     else:
         scraper.scrape()
 
-    scraper.save_cookies()
+    #scraper.save_cookies()
 
     
 
